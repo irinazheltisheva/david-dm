@@ -1,0 +1,17 @@
+{
+  "name": "root",
+  "private": true,
+  "scripts": {
+    "start": "run-s start:*",
+    "start:apis": "run-p start:apis:*",
+    "start:apis:badge": "node packages/badge-api/bin/start",
+    "start:apis:info": "node packages/info-api/bin/start",
+    "start:apis:project": "node packages/project-api/bin/start",
+    "start:apis:status": "node packages/status-api/bin/start",
+    "start:website": "node packages/website/bin/start"
+  },
+  "devDependencies": {
+    "lerna": "^3.22.1",
+    "npm-run-all": "^4.1.5"
+  }
+}
