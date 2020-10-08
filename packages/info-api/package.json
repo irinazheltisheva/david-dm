@@ -1,0 +1,33 @@
+{
+  "name": "@david-dm/info-api",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "bin": {
+    "david-info-api": "bin/start.js"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "test": "ava --verbose"
+  },
+  "author": "Alan Shaw",
+  "license": "MIT",
+  "dependencies": {
+    "compression": "^1.7.4",
+    "couchwatch": "^0.6.0",
+    "david": "^13.0.0-alpha.2",
+    "express": "^4.17.1",
+    "level": "^6.0.1",
+    "mkdirp": "^1.0.4",
+    "p-map": "^4.0.0",
+    "rc": "^1.2.8",
+    "rimraf": "^3.0.2",
+    "semver": "^7.3.2"
+  },
+  "devDependencies": {
+    "ava": "^3.13.0",
+    "bent": "^7.3.11",
+    "standard": "^14.3.4"
+  }
+}
