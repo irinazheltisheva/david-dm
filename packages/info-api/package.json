@@ -14,7 +14,7 @@
   "author": "Alan Shaw",
   "license": "MIT",
   "dependencies": {
-    "compression": "^1.7.4",
+    "compression": "^1.8.1",
     "couchwatch": "^0.6.0",
     "david": "^13.0.0-alpha.2",
     "express": "^4.17.1",
